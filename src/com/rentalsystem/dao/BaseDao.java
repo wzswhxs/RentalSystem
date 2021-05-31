@@ -24,7 +24,8 @@ public class BaseDao {
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
-
+//修改后
+        //颜色会变
         return conn;
     }
 }
